@@ -1,0 +1,7 @@
+
+<UserScriptConfig>
+    <Script name="amazon-cloud-player-helper" namespace="http://fluidapp.com" description="Adds Growl notifications and dock menu items to a Fluid-created SSB version of the Amazon Cloud Player" filename="amazon-cloud-player-helper.user.js">
+        <Include>*</Include>
+        <Application>com.fluidapp.FluidInstance.Amazon Cloud Player</Application>
+    </Script>
+</UserScriptConfig>
