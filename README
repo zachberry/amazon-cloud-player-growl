@@ -1,6 +1,6 @@
 This code will hack in Growl notifications and add dock menu items to a desktop version of the Amazon Cloud Player.
 
-1. Download Fluid and use it to create a Amazon Cloud Player desktop app.  Instructions here: http://www.andylemay.com/blog/2011/03/29/how-to-use-fluid-to-run-amazon-cloudplayer-as-its-own-app/
+1. Download Fluid and use it to create a Amazon Cloud Player desktop app.  Instructions here: http://www.andylemay.com/blog/2011/03/29/how-to-use-fluid-to-run-amazon-cloudplayer-as-its-own-app/  NOTE: Make sure you call your application 'Amazon Cloud Player' or you'll need to modify the AppleScript files.
 
 2. Checkout the helper javascript and config.xml file into the Userscripts folder for Cloud Player.  Once you have Cloud Player open, you can right click on the Script menu item and go to 'Open Userscripts Folder' to bring up the folder.  For me, this was at /Users/zberry/Library/Application Support/Fluid/SSB/Amazon Cloud Player/Userscripts.  
 
