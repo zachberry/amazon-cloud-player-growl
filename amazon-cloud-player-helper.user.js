@@ -6,6 +6,8 @@
 // @author      Zachary Berry (zachberry@gmail.com, @zachberry)
 // ==/UserScript==
 
+// Info: http://zachberry.com/blog/?p=108 and https://github.com/zachberry/amazon-cloud-player-growl
+
 //@TODO: last.fm scrobbling
 (function ()
 {
@@ -23,8 +25,8 @@
 	pollPlayerWidgetCreatedID = setInterval(checkForPlayerWidgetCreated, INTERVAL_DELAY);
 	
 	window.fluid.addDockMenuItem('Play / Pause', onPlay);
-	window.fluid.addDockMenuItem('Next', onPrev);
-	window.fluid.addDockMenuItem('Previous', onNext);
+	window.fluid.addDockMenuItem('Next', onNext);
+	window.fluid.addDockMenuItem('Previous', onPrev);
 	
 	function onPrev()
 	{
